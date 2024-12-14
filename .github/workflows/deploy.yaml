@@ -22,5 +22,5 @@ jobs:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           DEPLOY_ANT_PROCESS: ${{ secrets.DEPLOY_ANT_PROCESS}}
         run: |
-          npm install
-          npm run deploy
+          yarn
+          yarn deploy-main
