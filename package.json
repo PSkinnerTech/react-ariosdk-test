@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-  "deploy-main": "npm run build && permaweb-deploy2 --deploy-folder --ant-process $DEPLOY_ANT_PROCESS_ID --key $DEPLOY_KEY --git-hash $GIT_HASH"
+  "deploy": "npm run build && permalaunch"
   },
   "eslintConfig": {
     "extends": [
